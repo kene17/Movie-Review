@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  /* puts items in the center */
+  align-items: center;
+  /* puts everything in the middle*/
+  justify-content: center;
+}
+
+.form input{
+  width:300px;
+  height: 60px;
+  margin: 10px;
+  font-size:25px;
+}
+.card{
+  width: 500px;
+  height: 171px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#updateInput{
+  width: 100px;
+  height: 30px;
+}
